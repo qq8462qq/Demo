@@ -25,7 +25,7 @@ public interface CartService {
              */
             public List<Cart> findCartListFromRedis(String username);
             /**
-             * 将购物车保存到redistyuiop             * @param username
+             * 将购物车保存到redistyuiop  ggggggg           * @param username
              * @param cartList
              */
             public void saveCartListToRedis(String username,List<Cart> cartList);
